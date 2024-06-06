@@ -1,0 +1,57 @@
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+  justify-content: center;
+  min-height: 100vh;  
+  margin: 0; 
+}
+
+.phone-section {
+  list-style: none;
+  background-color: #01131B;
+  min-height: 300px;
+  padding-left: 5px;
+  padding: 15px 5px;
+}
+
+ul.headers {
+  padding-left: 5px;
+  list-style-type: none; /* Remove dots from the list items */
+}
+
+ul.headers li {
+  padding: 10px;
+  border-bottom: 1px dotted #ececec;
+}
+
+ul.headers li a {
+  color: #fff;
+}
+
+ul.headers li a:hover {
+  text-decoration: none;
+}
+
+.subtext {
+  font-size: 10px;
+}
+
+.green {
+  color: #34B71F;
+}
+
+.red {
+  color: #F3392F;
+}
+
+.phone-section {
+  width: 100%;
+  max-width: 420px;
+  padding: 15px;
+  margin: auto;
+}
